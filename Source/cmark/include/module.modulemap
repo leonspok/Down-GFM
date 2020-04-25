@@ -7,7 +7,7 @@ module libcmark [system][extern_c] {
     header "../src/parser.h"
     header "../src/registry.h"
 
-    header "../extensions/cmark-gfm-core-extensions.h"
+    header "../src/cmark-gfm-core-extensions.h"
 
     export *
 }
